@@ -12,7 +12,7 @@ import java.util.List;
 public class HelloController {
 
 	@GetMapping(value = "/")
-	public String printWelcome(ModelMap model) {
+	public String printCars(ModelMap model) {
 		List<String> messages = new ArrayList<>();
 		messages.add("Hello!");
 		messages.add("I'm Spring MVC application");
